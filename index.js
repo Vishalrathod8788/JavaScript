@@ -896,3 +896,10 @@
 // console.log(Date(1673272915729));
 
 // *************Events In JS*****************
+
+// 4 Way Of Event
+// What Is Event Object
+// Moush Event Object
+// KeyBoard Event Object
+// InputEvent in JavaScript
+
