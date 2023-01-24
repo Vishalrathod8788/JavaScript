@@ -5,19 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KeyBordEvent</title>
+    <style>
+        body{
+            background-color: cyan;
+            text-align: center;
+            color: coral;
+            font-size: 40px;
+        }
+        .effect-1{
+            border: 10px;
+            height: 100px;
+            width: 500px;
+            font-size: 70px;
+            border-radius: 30px;
+            border: solid 10px coral;
+        }
+    </style>
 </head>
 <body>
     <div>
+        <br>
+        <br>
+        <br>
         <p> Keybord Event In Java Script </p>
         <br>
         <input type="text" class="effect-1" onkeypress="keyPress()" onkeydown="keyDown()" onkeyup="keyUp()" >
-        <br>
-        <p id="keys"> Hello </p>
+        <br><br>
+        <p id="keys"></p>
     </div>
     <script>
+
         const keyPress  = () => {
-            document.getElementById('keys').innerHTML = `You Press ${event.key} and its code is ${event.code}`;
+            document.getElementById('keys').innerHTML = `You Press ${event.key} and its code is ${ event.code} `;
         }
+
+        // better to use and 3rd Once
 
         const keyDown = () => {
             document.getElementById('keys').innerHTML = 'You Press KeyDown';
