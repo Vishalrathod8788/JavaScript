@@ -899,7 +899,7 @@
 
 // 4 Way Of Event
 // What Is Event Object (onclik.html)
-// Moush Event Object
-// KeyBoard Event Object
-// InputEvent in JavaScript
+// Moush Event Object (mouse.html)
+// KeyBoard Event Object (KeyBord.html)
+// InputEvent in JavaScript (input.html)
 
