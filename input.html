@@ -20,21 +20,19 @@
                     <option value="vanila">Vanila</option>
                 </select>
             <br>
-            <div id="result"></div>
+            <div id="result">1</div>
         </div>
     </div>
     <script>
-        const selectElement = () => {
+        const icecream = document.getElementById('icecream');
+        icecream.addEventListener('change', () => {
             const inputChange = document.getElementById('ice').value;
             const icecream = document.getElementById('icecream').value;
             const result = document.getElementById('result');
+            result.innerHtml = inputChange + icecream;
 
-            result.innerHTML = `Mr ${inputChange} and ${icecream} ice-cream Flavour`;
-
-            // console.log(result.value);
-
-            // return result;
-        }
+            
+        });
     </script>
 </body>
 </html>
