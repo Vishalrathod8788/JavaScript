@@ -746,6 +746,7 @@
 // console.log(replaceData);
 
 //Lucky Drow Mini Game
+
 // let str = "qazwsxedcrfvtgbyhnujmikolp";
 
 // console.log(str.charAt(7));
@@ -902,4 +903,3 @@
 // Moush Event Object (mouse.html)
 // KeyBoard Event Object (KeyBord.html)
 // InputEvent in JavaScript (input.html)
-
