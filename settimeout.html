@@ -51,25 +51,39 @@
         <button id="btn">
             Click Here
         </button>
+
+        <button id="stop">
+            Stop
+        </button>
     </div>
     <script>
+        let num = 0;
+        let timeRef;
         const MyName = document.querySelector('#showMyName');
-        const MyName1 = document.querySelector('#showMyName');
-        const MyName2 = document.querySelector('#showMyName');
+        const MyName1 = document.querySelector('#showMyName1');
+        const MyName2 = document.querySelector('#showMyName2');
         const btn = document.querySelector('#btn');
+        const btn1 = document.querySelector('#stop');
 
         const showMyName = () => {
             MyName.innerHTML = 'Loading...'
             setTimeout(() => {
                 MyName.innerHTML = "Vishal Rathod";
-            }, 2000)
+            }, 1000)
+        }
 
-            setInterval(() => {
-                MyName1.innerHTML = 'Loading...'
-                MyName1.innerHTML = "Vishal Rathod";
-            }, 2000)
+        const showMyName1 = () => {
+            // MyName1.innerHTML = 'Loading...'
+            timeRef = setInterval(() => {
+                MyName1.innerHTML = `${num}`;
+                num++;
+            }, 1000)
         }
         btn.addEventListener('click', showMyName);
+        btn.addEventListener('click', showMyName1);
+        btn1.addEventListener('click', () => {
+            clearInterval(timeRef);
+        });
     </script>
 </body>
 </html>
