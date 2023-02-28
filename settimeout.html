@@ -45,6 +45,8 @@
         </p>
         <!-- <br> -->
         <p id="showMyName" class="name"></p>
+        <p id="showMyName1" class="name"></p>
+        <p id="showMyName2" class="name"></p>
         <!-- <br> -->
         <button id="btn">
             Click Here
@@ -52,12 +54,19 @@
     </div>
     <script>
         const MyName = document.querySelector('#showMyName');
+        const MyName1 = document.querySelector('#showMyName');
+        const MyName2 = document.querySelector('#showMyName');
         const btn = document.querySelector('#btn');
 
         const showMyName = () => {
             MyName.innerHTML = 'Loading...'
             setTimeout(() => {
                 MyName.innerHTML = "Vishal Rathod";
+            }, 2000)
+
+            setInterval(() => {
+                MyName1.innerHTML = 'Loading...'
+                MyName1.innerHTML = "Vishal Rathod";
             }, 2000)
         }
         btn.addEventListener('click', showMyName);
