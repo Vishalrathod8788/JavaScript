@@ -54,6 +54,24 @@
             Stop
         </button>
     </div>
-    
+    <script>
+        let num = 0;
+        let timeRef;
+        const MyName1 = document.querySelector('#showMyName1');
+        const btn = document.querySelector('#btn');
+        const btn1 = document.querySelector('#stop');
+
+        const showMyName1 = () => {
+            // MyName1.innerHTML = 'Loading...'
+            timeRef = setInterval(() => {
+                MyName1.innerHTML = `${num}`;
+                num++;
+            }, 1000)
+        }
+        btn.addEventListener('click', showMyName1);
+        btn1.addEventListener('click', () => {
+            clearInterval(timeRef);
+        });
+    </script>
 </body>
 </html>
