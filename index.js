@@ -414,8 +414,6 @@
 // biodata(); # Function
 
 
-
-
 // Feture Of Two In ES6 [2]
 
 // Template Literal (Temolate String)    [2]
