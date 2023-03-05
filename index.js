@@ -527,8 +527,6 @@
 
 // Array.prototype.push()
 
-
-
 // const animals = ['Pig', 'Goats', 'Sheep'];
 
 // const count = animals.push('Chicken');
