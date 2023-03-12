@@ -924,4 +924,4 @@ let biodata = {
     }
 }
 
-console.log(biodata.myAge);
+console.log(biodata.getData());
