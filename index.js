@@ -923,5 +923,6 @@ let biodata = {
         console.log(`My Name is ${biodata.myName} And My Age is ${biodata.myAge}`);
     }
 }
-
+console.log(biodata.myName);
+console.log(biodata.myAge);
 console.log(biodata.getData());
