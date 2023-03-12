@@ -946,10 +946,26 @@
 // }
 // obj.myName();
 
-const obj = {
+//  Fat Arrow Function use
+
+// const obj = {
+//     myAge : 18,
+//     myName : () => {
+//         console.log(this.myAge);
+//     }
+// }
+// obj.myName();
+
+let biodata = {
+    myName : {
+        realName : 'VGR',
+        chennalName : 'ADV',
+    },
     myAge : 18,
-    myName : () => {
-        console.log(this.myAge);
+    getData()
+    {
+        console.log(`My Name is ${this.myName.chennalName} And my Age is ${this.myAge}`);
     }
+
 }
-obj.myName();
+biodata.getData();
