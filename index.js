@@ -931,8 +931,17 @@
 
 // what is 'this' Keyword
 
-var myName = 'VGR';
-function myNameFunc(){
-    console.log(this.myName);
+// var myName = 'VGR';
+// function myNameFunc(){
+//     console.log(this.myName);
+// }
+// myNameFunc();
+
+
+const obj = {
+    myAge : 18,
+    myName(){
+        console.log(this);
+    }
 }
-myNameFunc();
+obj.myName();
