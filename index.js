@@ -916,17 +916,22 @@
 
 // How to create an Object in JavaScript
 
-let biodata = {
-    myName: {
-        realName : "Vishal",
-        chennelName : "ADVcode"
-    },
-    getData: function () {
-        console.log(`My Name is ${biodata.myName} And My Age is ${biodata.myAge}`);
-    }
-}
-console.log(biodata.myName.chennelName);
+// let biodata = {
+//     myName: {
+//         realName : "Vishal",
+//         chennelName : "ADVcode"
+//     },
+//     getData: function () {
+//         console.log(`My Name is ${biodata.myName} And My Age is ${biodata.myAge}`);
+//     }
+// }
+// console.log(biodata.myName.chennelName);
 // console.log(biodata.myAge);
 // console.log(biodata.getData());
 
-//what is chat GPT?
+// what is 'this' Keyword
+
+function myName(){
+    console.log(this);
+}
+console.log(myName);
