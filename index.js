@@ -941,7 +941,7 @@
 const obj = {
     myAge : 18,
     myName(){
-        console.log(this);
+        console.log(this.myAge);
     }
 }
 obj.myName();
