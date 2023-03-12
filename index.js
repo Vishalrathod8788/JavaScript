@@ -931,7 +931,8 @@
 
 // what is 'this' Keyword
 
-function myName(){
-    console.log(this);
+var myName = 'VGR';
+function myNameFunc(){
+    console.log(this.myName);
 }
-console.log(myName);
+myNameFunc();
