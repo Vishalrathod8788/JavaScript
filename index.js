@@ -910,3 +910,18 @@
 // clearInterval
 // clearInterval
 
+// JavaScript in OOPs Concept :-
+
+// what is object literal?
+
+// How to create an Object in JavaScript
+
+let biodata = {
+    myName : "Vishal",
+    myAge : 18,
+    getData : function(){
+        console.log(`My Name is ${biodata.myName} And My Age is ${biodata.myAge}`);
+    }
+}
+
+console.log(biodata.myAge);
