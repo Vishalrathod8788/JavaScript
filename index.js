@@ -956,16 +956,16 @@
 // }
 // obj.myName();
 
-let biodata = {
-    myName : {
-        realName : 'VGR',
-        chennalName : 'ADV',
-    },
-    myAge : 18,
-    getData()
-    {
-        console.log(`My Name is ${this.myName.chennalName} And my Age is ${this.myAge}`);
-    }
+// let biodata = {
+//     myName : {
+//         realName : 'VGR',
+//         chennalName : 'ADV',
+//     },
+//     myAge : 18,
+//     getData()
+//     {
+//         console.log(`My Name is ${this.myName.chennalName} And my Age is ${this.myAge}`);
+//     }
 
-}
-biodata.getData();
+// }
+// biodata.getData();
