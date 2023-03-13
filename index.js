@@ -970,10 +970,21 @@
 // }
 // biodata.getData();
 
-let myName = "Vishal";
-const myBioData = {
-    [myName] : "Hello how are you ",
-    26 : "is my Age"
-}
+// let myName = "Vishal";
+// const myBioData = {
+//     [myName] : "Hello how are you ",
+//     26 : "is my Age"
+// }
 
-console.log(myBioData);
+// console.log(myBioData);
+
+
+let myName = "Vishal";
+let myAge = 18;
+
+const biodata = 
+{
+    myName : myName,
+    myAge : myAge
+}
+console.log(biodata);
