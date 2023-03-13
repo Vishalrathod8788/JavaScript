@@ -979,12 +979,12 @@
 // console.log(myBioData);
 
 
-let myName = "Vishal";
-let myAge = 18;
+let myName1 = "Vishal";
+let myAge1 = 18;
 
 const biodata = 
 {
-    myName : myName,
-    myAge : myAge
+    myName : myName1,
+    myAge : myAge1
 }
 console.log(biodata);
