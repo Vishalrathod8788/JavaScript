@@ -993,4 +993,7 @@
 // Sepread Operator
 
 const color = ['red', 'Green', 'Blue', 'Black'];
-const myColor = ['Orange', 'cyne', 'Yellow', 'red', 'Green', 'Blue'];
+const myColor = [...color, 'Orange', 'cyne', 'Yellow', ];
+
+console.log(color);
+console.log(myColor);
