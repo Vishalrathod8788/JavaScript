@@ -979,12 +979,18 @@
 // console.log(myBioData);
 
 
-let myName = "Vishal";
-let myAge = 18;
+// let myName = "Vishal";
+// let myAge = 18;
 
-const biodata = 
-{
-    myName,
-    myAge
-}
-console.log(biodata);
+// const biodata = 
+// {
+//     myName,
+//     myAge
+// }
+// console.log(biodata);
+
+
+// Sepread Operator
+
+const color = ['red', 'Green', 'Blue', 'Black'];
+const myColor = ['Orange', 'cyne', 'Yellow', 'red', 'Green', 'Blue'];
