@@ -969,3 +969,11 @@
 
 // }
 // biodata.getData();
+
+let myName = "Vishal";
+const myBioData = {
+    [myName] : "Hello how are you ",
+    26 : "is my Age"
+}
+
+console.log(myBioData);
