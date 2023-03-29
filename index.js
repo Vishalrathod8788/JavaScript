@@ -990,6 +990,7 @@
 // console.log(biodata);
 
 
+
 // Sepread Operator
 
 const color = ['red', 'Green', 'Blue', 'Black'];
