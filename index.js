@@ -1003,3 +1003,5 @@ name.padStart(5);
 console.log(name);
 let myname = "Vishal".padStart(8);
 console.log(myname);
+let myAge = "18    ...".padEnd(10);
+console.log(myAge);
