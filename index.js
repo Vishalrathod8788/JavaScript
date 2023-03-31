@@ -999,5 +999,5 @@
 // console.log(myColor);
 
 let name = 'Vishal';
-let myname = 'Vishal'.padStart(5);
+let myname = "Vishal".padStart(8);
 console.log(myname);
