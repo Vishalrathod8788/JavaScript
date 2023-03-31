@@ -979,16 +979,15 @@
 // console.log(myBioData);
 
 
-// let myName = "Vishal";
-// let myAge = 18;
+let myName = "Vishal";
+let myAge = 18;
 
-// const biodata = 
-// {
-//     myName,
-//     myAge
-// }
-// console.log(biodata);
-
+const biodata = 
+{
+    myName,
+    myAge
+}
+console.log(biodata);
 
 
 // Sepread Operator
