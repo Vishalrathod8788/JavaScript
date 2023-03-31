@@ -998,10 +998,15 @@
 // console.log(color);
 // console.log(myColor);
 
-let name = "Vishal";
-name.padStart(5);
-console.log(name);
-let myname = "Vishal".padStart(8);
-console.log(myname);
-let myAge = "18    ...".padEnd(10);
-console.log(myAge);
+// let name = "Vishal";
+// name.padStart(5);
+// console.log(name);
+// let myname = "Vishal".padStart(8);
+// console.log(myname);
+// let myAge = "18    ...".padEnd(10);
+// console.log(myAge);
+
+const person = {
+    name : "Vishal",
+    age : 18
+}
