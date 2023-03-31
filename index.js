@@ -998,6 +998,8 @@
 // console.log(color);
 // console.log(myColor);
 
-let name = 'Vishal';
+let name = "Vishal";
+name.padStart(5);
+console.log(name);
 let myname = "Vishal".padStart(8);
 console.log(myname);
