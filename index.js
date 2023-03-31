@@ -1000,3 +1000,4 @@
 
 let name = 'Vishal';
 let myname = 'Vishal'.padStart(5);
+console.log(myname);
