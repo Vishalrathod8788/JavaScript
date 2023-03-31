@@ -1010,4 +1010,5 @@ const person = {
     name : "Vishal",
     age : 18
 }
-console.log();
+console.log(Object.values(person));
+console.log(Object.entries(person));
