@@ -1010,3 +1010,4 @@ const person = {
     name : "Vishal",
     age : 18
 }
+console.log();
