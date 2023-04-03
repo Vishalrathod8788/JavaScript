@@ -998,6 +998,9 @@
 // console.log(color);
 // console.log(myColor);
 
+
+// ES2018
+
 // let name = "Vishal";
 // name.padStart(5);
 // console.log(name);
@@ -1012,3 +1015,5 @@ const person = {
 }
 console.log(Object.values(person));
 console.log(Object.entries(person));
+
+
