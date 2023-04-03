@@ -1038,3 +1038,4 @@
 // BigInt
 let oldNum = Number.MAX_SAFE_INTEGER;
 console.log(oldNum);
+console.log(oldNum + 1);
