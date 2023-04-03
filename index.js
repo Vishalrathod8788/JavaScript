@@ -1022,12 +1022,15 @@
 
 // ES2019
 
-const arr = [
-    ['Z_1','Z_2'],
-    ['Z_3','Z_4'],
-    ['Z_5','Z_6'],
-    ['Z_7','Z_8'],
-    ['Z_9',['Z_10', 'Z-10', ['Z_10', 'Z-10']]],
-];
-// console.log(arr.flat(Infinity));
-console.log(Object.fromEntries(arr.flat(Infinity)));
+// const arr = [
+//     ['Z_1','Z_2'],
+//     ['Z_3','Z_4'],
+//     ['Z_5','Z_6'],
+//     ['Z_7','Z_8'],
+//     ['Z_9',['Z_10', 'Z-10', ['Z_10', 'Z-10']]],
+// ];
+// console.log(Object.entries(arr.flat(Infinity)));
+
+// ES2020
+
+
