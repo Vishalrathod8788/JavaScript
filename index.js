@@ -1029,3 +1029,4 @@ const arr = [
     ['Z_7','Z_8'],
     ['Z_9','Z_10'],
 ]
+console.log(arr.flat);
