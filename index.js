@@ -1030,4 +1030,4 @@ const arr = [
     ['Z_9',['Z_10', 'Z-10', ['Z_10', 'Z-10']]],
 ];
 // console.log(arr.flat(Infinity));
-console.log(Object.fromEntries(arr));
+console.log(Object.fromEntries(arr.flat(Infinity)));
