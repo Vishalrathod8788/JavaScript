@@ -1019,3 +1019,5 @@ const sPerson = { ...person };
 console.log(Object.values(person));
 console.log(Object.values(sPerson));
 // console.log(Object.entries(sPerson));
+
+// ES2019
