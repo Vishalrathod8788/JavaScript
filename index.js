@@ -1009,15 +1009,15 @@
 // let myAge = "18    ...".padEnd(10);
 // console.log(myAge);
 
-const person = {
-    name : "Vishal",
-    age : 18,
-    city : "Jamnagar"
-}
+// const person = {
+//     name : "Vishal",
+//     age : 18,
+//     city : "Jamnagar"
+// }
 
-const sPerson = { ...person };
-console.log(Object.values(person));
-console.log(Object.values(sPerson));
+// const sPerson = { ...person };
+// console.log(Object.values(person));
+// console.log(Object.values(sPerson));
 // console.log(Object.entries(sPerson));
 
 // ES2019
