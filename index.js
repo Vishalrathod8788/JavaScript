@@ -1029,5 +1029,5 @@ const arr = [
     ['Z_7','Z_8'],
     ['Z_9',['Z_10', 'Z-10', ['Z_10', 'Z-10']]],
 ];
-console.log(arr.flat(Infinity));
-
+// console.log(arr.flat(Infinity));
+console.log(Object.fromEntries(arr));
