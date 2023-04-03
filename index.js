@@ -1021,3 +1021,7 @@ console.log(Object.values(sPerson));
 // console.log(Object.entries(sPerson));
 
 // ES2019
+
+const arr = [
+    
+]
