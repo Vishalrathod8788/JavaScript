@@ -1027,6 +1027,6 @@ const arr = [
     ['Z_3','Z_4'],
     ['Z_5','Z_6'],
     ['Z_7','Z_8'],
-    ['Z_9','Z_10'],
-]
-console.log(arr.flat);
+    ['Z_9',['Z_10', 'Z-10']],
+];
+console.log(arr.flat());
