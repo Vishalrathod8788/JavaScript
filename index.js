@@ -1014,5 +1014,8 @@ const person = {
     age : 18,
     city : "Jamnagar"
 }
+
+const sPerson = { ...person };
 console.log(Object.values(person));
-console.log(Object.entries(person));
+console.log(Object.values(sPerson));
+// console.log(Object.entries(sPerson));
