@@ -1011,9 +1011,8 @@
 
 const person = {
     name : "Vishal",
-    age : 18
+    age : 18,
+    city : "Jamnagar"
 }
 console.log(Object.values(person));
 console.log(Object.entries(person));
-
-
