@@ -240,9 +240,13 @@
 //         console.log("yey, Today Is Other Day");
 // }
 
+
+
 // Switch Case Statement
 
 // Find Day Name In switch case Statement
+
+
 
 // var day = 'bhbhbh';
 // switch(day)
