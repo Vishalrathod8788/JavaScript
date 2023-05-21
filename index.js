@@ -1051,5 +1051,3 @@ console.log(oldNum + 1);
 console.log(oldNum + 12);
 console.log(oldNum + 9);
 console.log(oldNum + 3);
-
-
