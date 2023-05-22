@@ -1042,8 +1042,6 @@
 
 // ES2020
 
-
-
 // BigInt
 let oldNum = Number.MAX_SAFE_INTEGER;
 console.log(oldNum);
