@@ -998,7 +998,6 @@
 // }
 // console.log(biodata);
 
-
 // Sepread Operator
 
 // const color = ['red', 'Green', 'Blue', 'Black'];
@@ -1006,7 +1005,6 @@
 
 // console.log(color);
 // console.log(myColor);
-
 
 // ES2018
 
