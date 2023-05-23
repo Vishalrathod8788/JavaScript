@@ -913,7 +913,6 @@
 // KeyBoard Event Object (KeyBord.html)
 // InputEvent in JavaScript (input.html)
 
-
 // setInterval
 // setTimeout
 // clearInterval
@@ -945,7 +944,6 @@
 //     console.log(this.myName);
 // }
 // myNameFunc();
-
 
 // const obj = {
 //     myAge : 18,
