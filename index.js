@@ -806,6 +806,7 @@
 //------------------------------------------------------------------------------------------------
 
 
+
 // let curDate = new Date();
 // console.log(curDate);
 
@@ -911,7 +912,6 @@
 // Moush Event Object (mouse.html)
 // KeyBoard Event Object (KeyBord.html)
 // InputEvent in JavaScript (input.html)
-
 // setInterval
 // setTimeout
 // clearInterval
