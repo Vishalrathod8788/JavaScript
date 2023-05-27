@@ -733,6 +733,7 @@
 // console.log(res);
 
 // SubStr Method 🙌🖐
+
 // var str = "Banana, Appale, Mango, Kiwi";
 
 // let res = str.substr(0, -4);
