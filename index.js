@@ -699,7 +699,9 @@
 // let sData = myBioData.search("Rathod");
 // console.log(sData);
 
+
 // Extrecting String parseInt 🙌🖐
+
 
 // There Are Three Methods for Extrecting a part of a String :
 
