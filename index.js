@@ -685,6 +685,7 @@
 // let myName = "Vishal Rathod";
 // console.log(myName.length);
 
+
 // Escape Charecters
 // let anySentence = 'We are the so-called "Viking" From yhe North.';
 // let anySentence1 = 'We are the so-called "Viking" From yhe North.';
