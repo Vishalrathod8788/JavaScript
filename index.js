@@ -618,7 +618,7 @@
 // });
 // console.log(newArrfor);
 
-//                                              🏁 Chellenge Time 🏁
+//-----------------------------------------------------------🏁 Chellenge Time 🏁
 
 // 1 :- Find The Squre root of each element in an Array
 // 2 :- Multiply each element  by 2 and return only those element which are greter then 10
