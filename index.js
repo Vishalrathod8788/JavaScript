@@ -426,11 +426,7 @@
 
 // [3]
 
-
-
 // Feture Of ES6 Default Parameters [3]
-
-
 
 // function mult(a,b="5")  //Default Perameters on ES6
 // {
