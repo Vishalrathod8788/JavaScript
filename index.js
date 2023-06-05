@@ -373,9 +373,7 @@
 // console.log('the sum of two number is ' + sum);
 
 
-
 // Features of ECMAScript 2015 also known As ES6 😍😍
-
 
 
 // Feratures One [1]
