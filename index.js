@@ -331,7 +331,6 @@
 //         console.log(total);
 // }
 
-
 // sum();
 
 // Function Parameters   VS Function  argument
