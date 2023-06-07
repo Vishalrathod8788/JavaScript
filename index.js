@@ -311,6 +311,7 @@
 //         console.log(tableOf + " * " + num + " = " + tableOf * num );
 // }
 
+
 // Functions With Javascript
 
 // function sum()
