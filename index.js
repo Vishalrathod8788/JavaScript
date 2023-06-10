@@ -247,8 +247,6 @@
 // Find Day Name In switch case Statement
 
 
-
-
 // var day = 'bhbhbh';
 // switch(day)
 // {
