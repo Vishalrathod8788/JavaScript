@@ -241,8 +241,6 @@
 // }
 
 
-
-
 // Switch Case Statement
 
 // Find Day Name In switch case Statement
