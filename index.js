@@ -95,12 +95,15 @@
 // var a = 30;
 // var b = 10;
 
+
 // console.log(a == b);
 // console.log(a <= b);
 // console.log(a >= b);
 // console.log(a != b);
 
+
 // Logical Operator
+
 
 // var a = 10;
 // var b = -20;
